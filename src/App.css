@@ -47,7 +47,7 @@
 
 @font-face {
   font-family: Harmony;
-  src: url(HARMONY.otf) format('OpenType');
+  src: url(/fonts/HARMONY.otf) format('OpenType');
 }
 
 @font-face {
