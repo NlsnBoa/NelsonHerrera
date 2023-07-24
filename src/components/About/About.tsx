@@ -20,15 +20,15 @@ const About = () => {
 
       <div className={styles.collage}>
         <div className={styles.imageHolder1}>
-          <img className={styles.building} src="src/assets/imgs/pexels-camila-melo-3075974.jpg" alt="Colombian Building" />
+          <img className={styles.building} src="pexels-camila-melo-3075974.jpg" alt="Colombian Building" />
           <div className={styles.caption} >Cartagena, Colombia</div>
         </div>
         <div className={styles.imageHolder2}>
-          <img className={styles.summerPhoto} src="src/assets/imgs/SummerPhoto.jpg" alt="Summer photo" />
+          <img className={styles.summerPhoto} src="SummerPhoto.jpg" alt="Summer photo" />
           <div className={styles.caption} >Niagra Falls, New York</div>
         </div>
         <div className={styles.imageHolder3}>
-          <img className={styles.winterPhoto} src="src/assets/imgs/WinterPhoto.jpg" alt="Winter photo" />
+          <img className={styles.winterPhoto} src="WinterPhoto.jpg" alt="Winter photo" />
           <div className={styles.caption} >Yours truly in North Carolina</div>
         </div>
       </div>
