@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import { ReactNode } from 'react';
 import styles from "./Nav.module.css";
 import About from "../About"
 import Projects from "../Projects"
