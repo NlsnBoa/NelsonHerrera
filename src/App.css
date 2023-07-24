@@ -16,73 +16,74 @@
 
 @font-face {
   font-family: Gang;
-  src: url(src/assets/font/Gangitem-normal-400-100.ttf);
+  src: url(Gangitem-normal-400-100.ttf) format('TrueType');
 }
 
 @font-face {
   font-family: Neue;
-  src: url(src/assets/font/Neue_Montreal/Neue-Montreal-normal-600-100.ttf);
+  src: url(Neue-Montreal-normal-600-100.ttf) format('TrueType');
 }
 @font-face {
   font-family: Dag;
-  src: url(src/assets/font/Dagilian-400.otf);
+  src: url(Dagilian-400.otf) format('OpenType');
 }
 @font-face {
   font-family: Olympia;
-  src: url(src/assets/font/Olympia-400.otf);
+  src: url(Olympia-400.otf) format('OpenType');
 }
 @font-face {
   font-family: Beach;
-  src: url(src/assets/font/Morning-Beach-Regular-400.ttf);
+  src: url(Morning-Beach-Regular-400.ttf) format('TrueType');
 }
 @font-face {
   font-family: Den;
-  src: url(src/assets/font/Denish-Demo-Regular-400.ttf);
+  src: url(Denish-Demo-Regular-400.ttf) format('TrueType');
 }
 
 @font-face {
   font-family: Ale;
-  src: url(src/assets/font/Aleman-Script-400.ttf);
+  src: url(Aleman-Script-400.ttf) format('TrueType');
 }
 
 @font-face {
   font-family: Harmony;
-  src: url(src/assets/font/Harmony/HARMONY.otf);
+  src: url(HARMONY.otf) format('OpenType');
 }
 
 @font-face {
   font-family: InconsolataRegular;
-  src: url(src/assets/font/inconsolata/Inconsolata-Regular.ttf);
+  src: url(Inconsolata-Regular.ttf) format('TrueType');
 }
 
 @font-face {
   font-family: InconsolataBold;
-  src: url(src/assets/font/inconsolata/Inconsolata-Bold.ttf);
+  src: url(Inconsolata-Bold.ttf) format('TrueType');
 }
 
 @font-face {
   font-family: lagri;
-  src: url(src/assets/font/Lugrasimo/Lugrasimo-Regular.ttf);
+  src: url(Lugrasimo-Regular.ttf) format('TrueType');
 }
 
+/* src/assets/font/ValenciaFolder/Valencia400.ttf */
 @font-face {
   font-family: valencia;
-  src: url(ValenciaFolder/Valencia400.ttf);
+  src: url(Valencia400.ttf) format('TrueType');
 }
 
 @font-face {
   font-family: avenirMedium;
-  src: url(src/assets/font/AvenirRoman/Avenir-Medium.ttf);
+  src: url(Avenir-Medium.ttf) format('TrueType');
 }
 
 @font-face {
   font-family: avenirRoman;
-  src: url(src/assets/font/AvenirRoman/Avenir-Roman.ttf);
+  src: url(Avenir-Roman.ttf) format('TrueType');
 }
 
 @font-face {
   font-family: avenirLight;
-  src: url(src/assets/font/AvenirRoman/Avenir-Light.ttf);
+  src: url(Avenir-Light.ttf) format('TrueType');
 }
 
 .navBar {
