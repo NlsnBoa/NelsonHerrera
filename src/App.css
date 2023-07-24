@@ -1,18 +1,3 @@
-#root {
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; */
-  /* max-width: 1280px; */
-  width: 100vw;
-  height: 100vh;
-
-  /* margin: 0 auto; */
-  /* padding: 2rem; */
-  /* text-align: center; */
-  /* border: dashed red; */
-  outline-offset: 15px;
-}
 
 @font-face {
   font-family: Gang;
@@ -85,6 +70,24 @@
   font-family: avenirLight;
   src: url(Avenir-Light.ttf) format('TrueType');
 }
+
+
+#root {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  /* max-width: 1280px; */
+  width: 100vw;
+  height: 100vh;
+
+  /* margin: 0 auto; */
+  /* padding: 2rem; */
+  /* text-align: center; */
+  /* border: dashed red; */
+  outline-offset: 15px;
+}
+
 
 .navBar {
   position: absolute;
