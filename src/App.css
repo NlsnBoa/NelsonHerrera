@@ -68,7 +68,7 @@
 /* src/assets/font/ValenciaFolder/Valencia400.ttf */
 @font-face {
   font-family: valencia;
-  src: url(Valencia400.ttf) format('TrueType');
+  src:  url(Valencia400.ttf) format('TrueType');
 }
 
 @font-face {

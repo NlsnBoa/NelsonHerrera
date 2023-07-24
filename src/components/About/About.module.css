@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: Harmony;
-    src: url(src/assets/font/Harmony/HARMONY.otf);
+    src: url(Harmony/HARMONY.otf);
 }
 
 .contentContainer {

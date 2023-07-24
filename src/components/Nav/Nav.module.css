@@ -15,60 +15,60 @@
 
 @font-face {
     font-family: Gang;
-    src: url(src/assets/font/Gangitem-normal-400-100.ttf);
+    src: url(Gangitem-normal-400-100.ttf);
 }
 
 @font-face {
     font-family: Neue;
-    src: url(src/assets/font/Neue_Montreal/Neue-Montreal-normal-600-100.ttf);
+    src: url(Neue-Montreal-normal-600-100.ttf);
 }
 
 @font-face {
     font-family: Dag;
-    src: url(src/assets/font/Dagilian-400.otf);
+    src: url(Dagilian-400.otf);
 }
 @font-face {
     font-family: Olympia;
-    src: url(src/assets/font/Olympia-400.otf);
+    src: url(Olympia-400.otf);
 }
 @font-face {
     font-family: Beach;
-    src: url(src/assets/font/Morning-Beach-Regular-400.ttf);
+    src: url(Morning-Beach-Regular-400.ttf);
 }
 @font-face {
     font-family: Den;
-    src: url(src/assets/font/Denish-Demo-Regular-400.ttf);
+    src: local(Denish-Demo-Regular-400) url(Denish-Demo-Regular-400.ttf) format();
 }
 
 @font-face {
     font-family: Ale;
-    src: url(src/assets/font/Aleman-Script-400.ttf);
+    src: url(Aleman-Script-400.ttf);
 }
 
 @font-face {
     font-family: 'Outfit';
-    src: url(src/assets/font/Outfit-VariableFont_wght.ttf);
+    src: url(Outfit-VariableFont_wght.ttf);
 }
 
 @font-face {
     font-family: avenirMedium;
-    src: url(src/assets/font/AvenirRoman/Avenir-Medium.ttf);
+    src: url(Avenir-Medium.ttf);
 }
 
 
 @font-face {
     font-family: avenirHeavy;
-    src: url(src/assets/font/AvenirRoman/Avenir-Heavy.ttf);
+    src: url(Avenir-Heavy.ttf);
 }
 
 @font-face {
     font-family: avenirBook;
-    src: url(src/assets/font/AvenirRoman/Avenir-Book.ttf);
+    src: url(Avenir-Book.ttf);
 }
 
 @font-face {
     font-family: avenirRoman;
-    src: url(src/assets/font/AvenirRoman/Avenir-Roman.ttf);
+    src: url(Avenir-Roman.ttf);
 }
 
 
