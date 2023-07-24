@@ -25,7 +25,7 @@ const Projects = () => {
           </div>
           <div className={styles.track}>
               <div className={styles.train}>
-                  <video className={styles.video}  src="PathfindingVisualizerVideo.mov" autoPlay loop></video>
+                  <video className={styles.video}  src="PathfindingVisualizerMov.mov" autoPlay loop></video>
                   <img className={styles.laptop}  src="Mockup.svg" alt="" />
               </div>
           </div>
@@ -52,8 +52,8 @@ const Projects = () => {
           </div>
           <div className={styles.track}>
               <div className={styles.train}>
-                  <video className={styles.video}  src="src/assets/imgs/PathfindingVisualizerVideo.mov" autoPlay loop></video>
-                  <img className={styles.laptop}  src="src/assets/imgs/Mockup.svg" alt="" />
+                  <video className={styles.video}  src="PathfindingVisualizerMov.mov" autoPlay loop></video>
+                  <img className={styles.laptop}  src="Mockup.svg" alt="" />
               </div>
           </div>
         </div>
@@ -79,8 +79,8 @@ const Projects = () => {
           </div>
           <div className={styles.track}>
               <div className={styles.train}>
-                  <video className={styles.video}  src="src/assets/imgs/PathfindingVisualizerVideo.mov" autoPlay loop></video>
-                  <img className={styles.laptop}  src="src/assets/imgs/Mockup.svg" alt="" />
+                  <video className={styles.video}  src="PathfindingVisualizerMov.mov" autoPlay loop></video>
+                  <img className={styles.laptop}  src="Mockup.svg" alt="" />
               </div>
           </div>
         </div>      
