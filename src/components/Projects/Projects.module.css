@@ -17,10 +17,6 @@
     src: url(Avenir-Book.ttf);
 }
 
-@font-face {
-    font-family: avenirRoman;
-    src: url(Avenir-Roman.ttf);
-}
 
 
 .contentContainer {

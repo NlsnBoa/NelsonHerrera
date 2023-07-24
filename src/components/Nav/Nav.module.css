@@ -1,28 +1,4 @@
 
-
-
-@font-face {
-    font-family: Gang;
-    src: url(Gangitem-normal-400-100.ttf);
-}
-
-@font-face {
-    font-family: Neue;
-    src: url(Neue-Montreal-normal-600-100.ttf);
-}
-
-@font-face {
-    font-family: Dag;
-    src: url(Dagilian-400.otf);
-}
-@font-face {
-    font-family: Olympia;
-    src: url(Olympia-400.otf);
-}
-@font-face {
-    font-family: Beach;
-    src: url(Morning-Beach-Regular-400.ttf);
-}
 @font-face {
     font-family: Den;
     src: local(Denish-Demo-Regular-400) url(Denish-Demo-Regular-400.ttf) format();
@@ -38,21 +14,6 @@
     src: url(Outfit-VariableFont_wght.ttf);
 }
 
-@font-face {
-    font-family: avenirMedium;
-    src: url(Avenir-Medium.ttf);
-}
-
-
-@font-face {
-    font-family: avenirHeavy;
-    src: url(Avenir-Heavy.ttf);
-}
-
-@font-face {
-    font-family: avenirBook;
-    src: url(Avenir-Book.ttf);
-}
 
 @font-face {
     font-family: avenirRoman;

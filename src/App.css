@@ -1,30 +1,3 @@
-
-@font-face {
-  font-family: Gang;
-  src: url(Gangitem-normal-400-100.ttf) format('TrueType');
-}
-
-@font-face {
-  font-family: Neue;
-  src: url(Neue-Montreal-normal-600-100.ttf) format('TrueType');
-}
-@font-face {
-  font-family: Dag;
-  src: url(Dagilian-400.otf) format('OpenType');
-}
-@font-face {
-  font-family: Olympia;
-  src: url(Olympia-400.otf) format('OpenType');
-}
-@font-face {
-  font-family: Beach;
-  src: url(Morning-Beach-Regular-400.ttf) format('TrueType');
-}
-@font-face {
-  font-family: Den;
-  src: url(Denish-Demo-Regular-400.ttf) format('TrueType');
-}
-
 @font-face {
   font-family: Ale;
   src: url(Aleman-Script-400.ttf) format('TrueType');
@@ -32,17 +5,12 @@
 
 @font-face {
   font-family: Harmony;
-  src: url(/fonts/HARMONY.otf) format('OpenType');
+  src: url(HARMONY.otf) format('OpenType');
 }
 
 @font-face {
   font-family: InconsolataRegular;
   src: url(Inconsolata-Regular.ttf) format('TrueType');
-}
-
-@font-face {
-  font-family: InconsolataBold;
-  src: url(Inconsolata-Bold.ttf) format('TrueType');
 }
 
 @font-face {
@@ -54,16 +22,6 @@
 @font-face {
   font-family: valencia;
   src:  url(Valencia400.ttf);
-}
-
-@font-face {
-  font-family: avenirMedium;
-  src: url(Avenir-Medium.ttf) format('TrueType');
-}
-
-@font-face {
-  font-family: avenirRoman;
-  src: url(Avenir-Roman.ttf) format('TrueType');
 }
 
 @font-face {
@@ -384,19 +342,6 @@
   padding: 0px;
   /* border: dashed yellow;  */
 }
-
-.resumeTag {
-  color: #080420;
-  font-size: 5rem;
-  font-family: gang;
-  z-index: -5;
-}
-
-.resumeTag:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
-
 
 .leftContainer {
   position: absolute;
