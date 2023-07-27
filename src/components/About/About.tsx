@@ -1,6 +1,28 @@
+// import { LazyLoadImage } from "react-lazy-load-image-component";
+import { useState } from "react";
 import styles from "./About.module.css";
+import Photo from "../Photo";
 
 const About = () => {
+
+    // allows the photo to enter the component without causing lag
+    const [showPhoto, setPhoto] = useState(false)
+
+    const [imgVisibilty, setImgVisibility] = useState('Off')
+  
+    async function delayImgVisibility() {
+      setTimeout(() => {
+        setImgVisibility("On")
+      }, 100)
+    }
+  
+    // 1250
+    setTimeout(() => {
+      setPhoto(true)
+    }, 1250)
+    
+
+
   return (
     <div className={styles.contentContainer}>
 
@@ -20,15 +42,18 @@ const About = () => {
 
       <div className={styles.collage}>
         <div className={styles.imageHolder1}>
-          <img className={styles.building} src="pexels-camila-melo-3075974.jpg" alt="Colombian Building" />
+          {/* <img className={styles.building} src="./assets/images/pexels-camila-melo-3075974.jpg" alt="Colombian Building" loading='eager'/> */}
+          {  showPhoto  && <div className={styles["buildingOn"]}> <Photo width={526.66} height={343.91} style={"building"} smallUrl="./assets/images/pexels-camila-melo-small.jpg" url="./assets/images/pexels-camila-melo-3075974.jpg" delayImgVisibility={delayImgVisibility} visibility={imgVisibilty} lazy={true} ></Photo></div> }
           <div className={styles.caption} >Cartagena, Colombia</div>
         </div>
         <div className={styles.imageHolder2}>
-          <img className={styles.summerPhoto} src="SummerPhoto.jpg" alt="Summer photo" />
+          {/* <img className={styles.summerPhoto} src="./assets/images/SummerPhoto.jpg" alt="Summer photo" loading='eager'/> */}
+          {  showPhoto  && <Photo width={795} height={320} style="summerPhoto" smallUrl="./assets/images/SummerPhoto-small.jpg" url="./assets/images/SummerPhoto.jpg" delayImgVisibility={delayImgVisibility} visibility={imgVisibilty} lazy={true} ></Photo>}
           <div className={styles.caption} >Niagra Falls, New York</div>
         </div>
         <div className={styles.imageHolder3}>
-          <img className={styles.winterPhoto} src="WinterPhoto.jpg" alt="Winter photo" />
+          {/* <img className={styles.winterPhoto} src="./assets/images/WinterPhoto.jpg" alt="Winter photo" loading='eager'/> */}
+          {  showPhoto  && <Photo  width={258.34} height={343.78}  style={"winterPhoto"} smallUrl="./assets/images/WinterPhoto-small.jpg" url="./assets/images/WinterPhoto.jpg" delayImgVisibility={delayImgVisibility} visibility={imgVisibilty} lazy={true}></Photo>}
           <div className={styles.caption} >Yours truly in North Carolina</div>
         </div>
       </div>
@@ -40,7 +65,6 @@ const About = () => {
         </div>
 
       </footer>
-      {/* <Footer></Footer> */}
     </div>
   )
 }

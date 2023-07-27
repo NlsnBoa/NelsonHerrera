@@ -3,18 +3,18 @@
 
 @font-face {
     font-family: avenirMedium;
-    src: url(Avenir-Medium.ttf);
+    src: url(./fonts/Avenir-Medium.ttf);
 }
 
 
 @font-face {
     font-family: avenirHeavy;
-    src: url(Avenir-Heavy.ttf);
+    src: url(./fonts/Avenir-Heavy.ttf);
 }
 
 @font-face {
     font-family: avenirBook;
-    src: url(Avenir-Book.ttf);
+    src: url(./fonts/Avenir-Book.ttf);
 }
 
 
@@ -190,7 +190,7 @@
 .train {
     /* border: 2px dashed blue; */
     position: relative;
-    height: fit-content;
+    height: 30rem;
     width: 100%;
     display: flex;
     transform: translateX(0%);
@@ -220,12 +220,17 @@
 }
 
 
-.laptop {
+.laptopOn {
     z-index: 100;
-    position: relative;  
+    position: absolute;  
     width: 70rem;
     border-radius: 12px;
     margin-top: -180px;
+    /* opacity: 1; */
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-duration: 1000ms;
+    transition-delay: 0ms;
+    /* border: 1px dashed mediumaquamarine ; */
     /* border-color: #d4d4d4; */
     /* border-bottom-width: 1px;
     border-left-width: 1px;
@@ -233,4 +238,22 @@
     border-top-width: 1px; */
     /* border-style: solid;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 2px 0px; */
+}
+
+
+.laptopOff {
+    z-index: 100;
+    position: relative;  
+    width: 70rem;
+    border-radius: 12px;
+    margin-top: -180px;
+    opacity: 0;
+    /* border: 1px dashed mediumaquamarine ; */
+    /* border-color: #d4d4d4; */
+     /* border-bottom-width: 1px; */
+    /* border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px; */
+    /* border-style: solid; */
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 2px 0px;  */
 }

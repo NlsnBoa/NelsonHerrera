@@ -1,0 +1,142 @@
+.laptopOn {
+    z-index: 100;
+    position: absolute;  
+    width: 70rem;
+    border-radius: 12px;
+    margin-top: -180px;
+    /* opacity: 1; */
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-duration: 1000ms;
+    transition-delay: 0ms;
+    /* border: 1px dashed mediumaquamarine ; */
+    /* border-color: #d4d4d4; */
+    /* border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px; */
+    /* border-style: solid;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 2px 0px; */
+}
+
+
+.laptopOff {
+    z-index: 100;
+    position: relative;  
+    width: 70rem;
+    border-radius: 12px;
+    margin-top: -180px;
+    opacity: 0;
+    /* border: 1px dashed mediumaquamarine ; */
+    /* display: none; */
+    /* border-color: #d4d4d4; */
+     /* border-bottom-width: 1px; */
+    /* border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px; */
+    /* border-style: solid; */
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 2px 0px;  */
+}
+
+
+.buildingOn {
+    max-height: 25rem;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-duration: 1000ms;
+    transition-delay: 0ms;
+
+    border-color: #d4d4d4;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-style: solid;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 2px 0px;
+}
+
+
+.summerPhotoOn {
+    max-height: 320px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-duration: 1000ms;
+    transition-delay: 0ms;
+    overflow: hidden;
+    border-color: #d4d4d4;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-style: solid;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 2px 0px;
+}
+
+.winterPhotoOn {
+    max-height: 25rem;
+    width: 100%;
+    object-fit: cover;
+    /* border: 9px solid rgb(192, 192, 192); */
+    border-radius: 12px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-duration: 1000ms;
+    transition-delay: 0ms;
+
+    border-color: #d4d4d4;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-style: solid;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 2px 0px;
+}
+
+.buildingOff {
+    max-height: 25rem;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+
+    border-color: #d4d4d4;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-style: solid;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 2px 0px;
+}
+
+
+.summerPhotoOff {
+    max-height: 320px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+
+    border-color: #d4d4d4;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-style: solid;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 2px 0px;
+}
+
+.winterPhotoOff {
+    max-height: 25rem;
+    width: 100%;
+    object-fit: cover;
+    /* border: 9px solid rgb(192, 192, 192); */
+    border-radius: 12px;
+
+    border-color: #d4d4d4;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-style: solid;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 2px 0px;
+}

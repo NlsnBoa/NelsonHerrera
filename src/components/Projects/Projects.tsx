@@ -1,6 +1,25 @@
+import { useState } from 'react'
 import styles from './Projects.module.css'
+import Photo from '../Photo'
+// import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const Projects = () => {
+  // allows the photo to enter the component without causing lag
+  const [showPhoto, setPhoto] = useState(false)
+
+  const [imgVisibilty, setImgVisibility] = useState('Off')
+
+  async function delayImgVisibility() {
+    setTimeout(() => {
+      setImgVisibility("On")
+    }, 500)
+  }
+
+  // 1250
+  setTimeout(() => {
+    setPhoto(true)
+  }, 1250)
+  
   return (
     <div className={styles.contentContainer}>
       <div className={styles.timeline}>
@@ -24,9 +43,12 @@ const Projects = () => {
             </div>
           </div>
           <div className={styles.track}>
-              <div className={styles.train}>
-                  <video className={styles.video}  src="PathfindingVisualizerMov.mov" autoPlay loop></video>
-                  <img className={styles.laptop}  src="Mockup.svg" alt="" />
+              <div className={styles.train} id="train">
+                  {/* <video className={styles.video}  src="./assets/videos/PathfindingVisualizerMov.mov" autoPlay loop></video> */}
+                  {/* {imgVisibilty && <img className={styles[laptopStyling]}  src="./assets/images/Mockup.svg" alt="" loading='eager'/>} */}
+                  {  showPhoto  && <Photo style={"laptop"} url={"./assets/images/Mockup.svg"} delayImgVisibility={delayImgVisibility} visibility={imgVisibilty} ></Photo>}
+
+                  {/* <LazyLoadImage className={styles.laptop}  src="./assets/images/Mockup.svg" effect='opacity'  placeholder={<div className={styles.placeholder}></div>} width="1,120px" alt="Laptop" ></LazyLoadImage> */}
               </div>
           </div>
         </div>
@@ -47,13 +69,15 @@ const Projects = () => {
               </div>
             </div>
             <div className={styles.projectDescription}>
-              Pathfinding-Visualizer is a simple program that visualizes popular pathfinding algorithms. You can place the start and target nodes, draw barrier nodes, and then run one of the implemented pathfinding algorithms: breadth first search, depth first search, Dijkstra's, and A*, with more like Bellman Ford's to be implemented.
+              Flappybird AI was trained to get as far as possible in the Flappybird Game. I used NEAT {"(NeuroEvolution of Augmenting Topologies)"} to train a neural network until a bird can make it to level 100. The game was made from scratch in python using Pygame.
             </div>
           </div>
           <div className={styles.track}>
               <div className={styles.train}>
-                  <video className={styles.video}  src="PathfindingVisualizerMov.mov" autoPlay loop></video>
-                  <img className={styles.laptop}  src="Mockup.svg" alt="" />
+                  {/* <video className={styles.video}  src="./assets/videos/PathfindingVisualizerMov.mov" autoPlay loop></video> */}
+                  {/* <img className={styles.laptop} id="laptop"  src="" alt="Laptop" loading='lazy' /> */}
+                  {  showPhoto  && <Photo style={"laptop"} url={"./assets/images/Mockup.svg"} delayImgVisibility={delayImgVisibility} visibility={imgVisibilty} ></Photo>}
+                  {/* <LazyLoadImage className={styles.laptop}  src="./assets/images/Mockup.svg" effect='opacity'  placeholder={<div className={styles.placeholder}></div>} height={1120} width={1120}alt="Laptop" ></LazyLoadImage> */}
               </div>
           </div>
         </div>
@@ -79,8 +103,10 @@ const Projects = () => {
           </div>
           <div className={styles.track}>
               <div className={styles.train}>
-                  <video className={styles.video}  src="PathfindingVisualizerMov.mov" autoPlay loop></video>
-                  <img className={styles.laptop}  src="Mockup.svg" alt="" />
+                  {/* <video className={styles.video}  src="./assets/videos/PathfindingVisualizerMov.mov" autoPlay loop></video> */}
+                  {/* <img className={styles.laptop}  src="./assets/images/Mockup.svg" alt="Laptop" loading='eager'/> */}
+                  {  showPhoto  && <Photo style={"laptop"} url={"./assets/images/Mockup.svg"} delayImgVisibility={delayImgVisibility} visibility={imgVisibilty} ></Photo>}
+                  {/* <LazyLoadImage className={styles.laptop}  src="./assets/images/Mockup.svg" effect='opacity'  placeholder={<div className={styles.placeholder}></div>} width="1,120px" alt="Laptop" ></LazyLoadImage> */}
               </div>
           </div>
         </div>      
