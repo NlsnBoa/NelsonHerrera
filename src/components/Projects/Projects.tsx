@@ -44,7 +44,9 @@ const Projects = () => {
           </div>
           <div className={styles.track}>
               <div className={styles.train} id="train">
-                  {/* <video className={styles.video}  src="./assets/videos/PathfindingVisualizerMov.mov" autoPlay loop></video> */}
+                  <video className={styles["video" + imgVisibilty]}   autoPlay loop>
+                    <source src="./assets/compressed2PV1730.mp4" type="video/mp4" />
+                  </video>
                   {/* {imgVisibilty && <img className={styles[laptopStyling]}  src="./assets/images/Mockup.svg" alt="" loading='eager'/>} */}
                   {  showPhoto  && <Photo style={"laptop"} url={"./assets/images/Mockup.svg"} delayImgVisibility={delayImgVisibility} visibility={imgVisibilty} ></Photo>}
 
@@ -74,7 +76,9 @@ const Projects = () => {
           </div>
           <div className={styles.track}>
               <div className={styles.train}>
-                  {/* <video className={styles.video}  src="./assets/videos/PathfindingVisualizerMov.mov" autoPlay loop></video> */}
+                  <video className={styles["video" + imgVisibilty]}  src="./assets/FlappyVideo1730.mp4" autoPlay loop>
+                    <source src="./assets/videos/FlappyVideo.mp4"  type="video/mp4"/>
+                  </video>
                   {/* <img className={styles.laptop} id="laptop"  src="" alt="Laptop" loading='lazy' /> */}
                   {  showPhoto  && <Photo style={"laptop"} url={"./assets/images/Mockup.svg"} delayImgVisibility={delayImgVisibility} visibility={imgVisibilty} ></Photo>}
                   {/* <LazyLoadImage className={styles.laptop}  src="./assets/images/Mockup.svg" effect='opacity'  placeholder={<div className={styles.placeholder}></div>} height={1120} width={1120}alt="Laptop" ></LazyLoadImage> */}
@@ -103,7 +107,7 @@ const Projects = () => {
           </div>
           <div className={styles.track}>
               <div className={styles.train}>
-                  {/* <video className={styles.video}  src="./assets/videos/PathfindingVisualizerMov.mov" autoPlay loop></video> */}
+                  {/* <video className={styles.video}  src="./assets/videos/PathfindingVisualizerMov.mp4" autoPlay loop></video> */}
                   {/* <img className={styles.laptop}  src="./assets/images/Mockup.svg" alt="Laptop" loading='eager'/> */}
                   {  showPhoto  && <Photo style={"laptop"} url={"./assets/images/Mockup.svg"} delayImgVisibility={delayImgVisibility} visibility={imgVisibilty} ></Photo>}
                   {/* <LazyLoadImage className={styles.laptop}  src="./assets/images/Mockup.svg" effect='opacity'  placeholder={<div className={styles.placeholder}></div>} width="1,120px" alt="Laptop" ></LazyLoadImage> */}
