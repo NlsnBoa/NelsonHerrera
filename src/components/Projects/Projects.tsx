@@ -48,7 +48,7 @@ const Projects = () => {
                     <source src="./assets/compressed2PV1730.mp4" type="video/mp4" />
                   </video> */}
                   {/* {imgVisibilty && <img className={styles[laptopStyling]}  src="./assets/images/Mockup.svg" alt="" loading='eager'/>} */}
-                  {  showPhoto  && <Photo style={"laptop"} url={"./assets/images/Mockup.svg"} delayImgVisibility={delayImgVisibility} visibility={imgVisibilty} ></Photo>}
+                  {/* {  showPhoto  && <Photo style={"laptop"} url={"./assets/images/Mockup.svg"} delayImgVisibility={delayImgVisibility} visibility={imgVisibilty} ></Photo>} */}
 
                   {/* <LazyLoadImage className={styles.laptop}  src="./assets/images/Mockup.svg" effect='opacity'  placeholder={<div className={styles.placeholder}></div>} width="1,120px" alt="Laptop" ></LazyLoadImage> */}
               {/* </div>
@@ -56,11 +56,14 @@ const Projects = () => {
           <div className={styles.track}>
             <div className={styles.train} id="train">
                   <iframe
-                      className={styles["video" + imgVisibilty]}
-                      src="https://www.youtube.com/embed/mgfWWHJGL9I?autoplay=1&loop=1&playlist=mgfWWHJGL9I"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowFullScreen
-                      title="Embedded YouTube Video"
+                    className={styles["video" + imgVisibilty]}
+                    src="https://www.youtube.com/embed/3eAwVyWgYdg?autoplay=1&loop=1&playlist=3eAwVyWgYdg&controls=0&modestbranding=1&rel=0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    style={{ border: 'none', pointerEvents: 'none' }}
+                    allowFullScreen
+                    title="Embedded YouTube Video"
+                    // width={1120}
+                    height={346}
                   ></iframe>
                   {/* {imgVisibilty && <img className={styles[laptopStyling]} src="./assets/images/Mockup.svg" alt="" loading='eager'/>} */}
                   {showPhoto && <Photo style={"laptop"} url={"./assets/images/Mockup.svg"} delayImgVisibility={delayImgVisibility} visibility={imgVisibilty} ></Photo>}
@@ -90,13 +93,21 @@ const Projects = () => {
             </div>
           </div>
           <div className={styles.track}>
-              <div className={styles.train}>
-                  <video className={styles["video" + imgVisibilty]}  src="./assets/FlappyVideo1730.mp4" autoPlay loop>
-                    <source src="./assets/videos/FlappyVideo.mp4"  type="video/mp4"/>
-                  </video>
-                  {/* <img className={styles.laptop} id="laptop"  src="" alt="Laptop" loading='lazy' /> */}
-                  {  showPhoto  && <Photo style={"laptop"} url={"./assets/images/Mockup.svg"} delayImgVisibility={delayImgVisibility} visibility={imgVisibilty} ></Photo>}
-                  {/* <LazyLoadImage className={styles.laptop}  src="./assets/images/Mockup.svg" effect='opacity'  placeholder={<div className={styles.placeholder}></div>} height={1120} width={1120}alt="Laptop" ></LazyLoadImage> */}
+            <div className={styles.train} id="train">
+                  <iframe
+                    className={styles["video" + imgVisibilty]}
+                    src="https://www.youtube.com/embed/mgfWWHJGL9I?autoplay=1&loop=1&playlist=mgfWWHJGL9I&controls=0&modestbranding=1&rel=0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    style={{ border: 'none', pointerEvents: 'none' }}
+                    allowFullScreen
+                    title="Embedded YouTube Video"
+                    // width={1120}
+                    height={346}
+                  ></iframe>
+                  {/* {imgVisibilty && <img className={styles[laptopStyling]} src="./assets/images/Mockup.svg" alt="" loading='eager'/>} */}
+                  {showPhoto && <Photo style={"laptop"} url={"./assets/images/Mockup.svg"} delayImgVisibility={delayImgVisibility} visibility={imgVisibilty} ></Photo>}
+
+                  {/* <LazyLoadImage className={styles.laptop} src="./assets/images/Mockup.svg" effect='opacity' placeholder={<div className={styles.placeholder}></div>} width="1,120px" alt="Laptop" ></LazyLoadImage> */}
               </div>
           </div>
         </div>
