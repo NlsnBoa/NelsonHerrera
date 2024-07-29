@@ -42,15 +42,30 @@ const Projects = () => {
               Pathfinding-Visualizer is a simple program that visualizes popular pathfinding algorithms. You can place the start and target nodes, draw barrier nodes, and then run one of the implemented pathfinding algorithms: breadth first search, depth first search, Dijkstra's, and A*, with more like Bellman Ford's to be implemented.
             </div>
           </div>
-          <div className={styles.track}>
+          {/* <div className={styles.track}>
               <div className={styles.train} id="train">
                   <video className={styles["video" + imgVisibilty]}   autoPlay loop>
                     <source src="./assets/compressed2PV1730.mp4" type="video/mp4" />
-                  </video>
+                  </video> */}
                   {/* {imgVisibilty && <img className={styles[laptopStyling]}  src="./assets/images/Mockup.svg" alt="" loading='eager'/>} */}
                   {  showPhoto  && <Photo style={"laptop"} url={"./assets/images/Mockup.svg"} delayImgVisibility={delayImgVisibility} visibility={imgVisibilty} ></Photo>}
 
                   {/* <LazyLoadImage className={styles.laptop}  src="./assets/images/Mockup.svg" effect='opacity'  placeholder={<div className={styles.placeholder}></div>} width="1,120px" alt="Laptop" ></LazyLoadImage> */}
+              {/* </div>
+          </div> */}
+          <div className={styles.track}>
+            <div className={styles.train} id="train">
+                  <iframe
+                      className={styles["video" + imgVisibilty]}
+                      src="https://www.youtube.com/embed/mgfWWHJGL9I?autoplay=1&loop=1&playlist=mgfWWHJGL9I"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                      title="Embedded YouTube Video"
+                  ></iframe>
+                  {/* {imgVisibilty && <img className={styles[laptopStyling]} src="./assets/images/Mockup.svg" alt="" loading='eager'/>} */}
+                  {showPhoto && <Photo style={"laptop"} url={"./assets/images/Mockup.svg"} delayImgVisibility={delayImgVisibility} visibility={imgVisibilty} ></Photo>}
+
+                  {/* <LazyLoadImage className={styles.laptop} src="./assets/images/Mockup.svg" effect='opacity' placeholder={<div className={styles.placeholder}></div>} width="1,120px" alt="Laptop" ></LazyLoadImage> */}
               </div>
           </div>
         </div>
