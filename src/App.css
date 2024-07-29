@@ -1,32 +1,32 @@
 @font-face {
   font-family: Ale;
-  src: url(./fonts/Aleman-Script-400.ttf) format('TrueType');
+  src: url(/assets/fonts/Aleman-Script-400.ttf) format('TrueType');
 }
 
 @font-face {
   font-family: Harmony;
-  src: url(./fonts/HARMONY.otf) format('OpenType');
+  src: url(/assets/fonts/HARMONY.otf) format('OpenType');
 }
 
 @font-face {
   font-family: InconsolataRegular;
-  src: url(./fonts/Inconsolata-Regular.ttf) format('TrueType');
+  src: url(/assets/fonts/Inconsolata-Regular.ttf) format('TrueType');
 }
 
 @font-face {
   font-family: lagri;
-  src: url(./fonts/Lugrasimo-Regular.ttf) format('TrueType');
+  src: url(/assets/fonts/Lugrasimo-Regular.ttf) format('TrueType');
 }
 
 /* src/font/ValenciaFolder/Valencia400.ttf */
 @font-face {
   font-family: valencia;
-  src:  url(./fonts/Valencia400.ttf);
+  src:  url(/assets/fonts/Valencia400.ttf);
 }
 
 @font-face {
   font-family: avenirLight;
-  src: url(./fonts/Avenir-Light.ttf) format('TrueType');
+  src: url(/assets/fonts/Avenir-Light.ttf) format('TrueType');
 }
 
 

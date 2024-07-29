@@ -3,18 +3,18 @@
 
 @font-face {
     font-family: avenirMedium;
-    src: url(./fonts/Avenir-Medium.ttf);
+    src: url(/assets/fonts/Avenir-Medium.ttf);
 }
 
 
 @font-face {
     font-family: avenirHeavy;
-    src: url(./fonts/Avenir-Heavy.ttf);
+    src: url(/assets/fonts/Avenir-Heavy.ttf);
 }
 
 @font-face {
     font-family: avenirBook;
-    src: url(./fonts/Avenir-Book.ttf);
+    src: url(/assets/fonts/Avenir-Book.ttf);
 }
 
 

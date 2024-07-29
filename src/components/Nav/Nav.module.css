@@ -6,18 +6,18 @@
 
 @font-face {
     font-family: Ale;
-    src: url(./fonts/Aleman-Script-400.ttf);
+    src: url(/assets/fonts/Aleman-Script-400.ttf);
 }
 
 @font-face {
     font-family: 'Outfit';
-    src: url(./fonts/Outfit-VariableFont_wght.ttf);
+    src: url(/assets/fonts/Outfit-VariableFont_wght.ttf);
 }
 
 
 @font-face {
     font-family: avenirRoman;
-    src: url(./fonts/Avenir-Roman.ttf);
+    src: url(/assets/fonts/Avenir-Roman.ttf);
 }
 
 
