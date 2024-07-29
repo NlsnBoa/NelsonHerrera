@@ -109,7 +109,7 @@ const Projects = () => {
               <div className={styles.train}>
                   {/* <video className={styles.video}  src="./assets/videos/PathfindingVisualizerMov.mp4" autoPlay loop></video> */}
                   {/* <img className={styles.laptop}  src="./assets/images/Mockup.svg" alt="Laptop" loading='eager'/> */}
-                  {  showPhoto  && <Photo style={"laptop"} url={"./assets/images/Mockup.svg"} delayImgVisibility={delayImgVisibility} visibility={imgVisibilty} ></Photo>}
+                  {/* {  showPhoto  && <Photo style={"laptop"} url={"./assets/images/Mockup.svg"} delayImgVisibility={delayImgVisibility} visibility={imgVisibilty} ></Photo>} */}
                   {/* <LazyLoadImage className={styles.laptop}  src="./assets/images/Mockup.svg" effect='opacity'  placeholder={<div className={styles.placeholder}></div>} width="1,120px" alt="Laptop" ></LazyLoadImage> */}
               </div>
           </div>
