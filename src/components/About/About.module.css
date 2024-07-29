@@ -4,9 +4,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;500;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
 
-@font-face {
+/* @font-face {
     font-family: Harmony;
     src: url(/assets/fonts/Harmony/HARMONY.otf);
+} */
+
+@font-face {
+  font-family: Harmony;
+  src: url(/assets/fonts/HARMONY.otf) format('OpenType');
 }
 
 .contentContainer {

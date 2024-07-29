@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: Den;
-    src: local(Denish-Demo-Regular-400) url(./fonts/Denish-Demo-Regular-400.ttf) format();
+    src: local(Denish-Demo-Regular-400) url(/assets/fonts/Denish-Demo-Regular-400.ttf) format();
 }
 
 @font-face {
