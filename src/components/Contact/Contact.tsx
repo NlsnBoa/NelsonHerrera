@@ -10,7 +10,7 @@ const Contact = () => {
         <a target='_blank' href="https://www.linkedin.com/in/nelson-herrera-swe/"><img className={styles.linkImg} src="./assets/images/linkedin_fill.svg" alt="" /></a>
       </div>
       <div className={styles.link}>
-        <a target='_blank' href="ndanielherrera@icloud.com"><img className={styles.linkImg} src="./assets/images/mail_fill.svg" alt="" /></a>
+        <a target='_blank' href="mailto:ndanielherrera@icloud.com"><img className={styles.linkImg} src="./assets/images/mail_fill.svg" alt="" /></a>
       </div>
 
       <div className={styles.link}>

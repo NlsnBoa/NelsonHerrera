@@ -38,7 +38,8 @@ function App() {
             <li onClick={() => handleNavClick(togglePage)} > 
               <div className={((togglePage === "" && !skipFlag) ? "homepageNavOn" : "homepageNavOff")} >Home</div> 
             </li>
-            <li onClick={() => { (togglePage === "") ? handleNavClick("left") : handleNavClick("left", true)}} >
+            {/* onClick={() => { (togglePage === "") ? handleNavClick("left") : handleNavClick("left", true)}} */}
+            <li onClick={() => { (togglePage === "") ? setTogglePage("left") : handleNavClick("left", true)}} >
               <div className={(togglePage === "left" ? "aboutpageNavOn" : "aboutpageNavOff")} >About</div> 
             </li>
             <li onClick={() => { (togglePage === "") ? handleNavClick("bottom") : handleNavClick("bottom", true)}}  > 
@@ -60,7 +61,7 @@ function App() {
                 .pauseFor(100)
                 .typeString("<br class='title' />")
                 .pauseFor(300)
-                .typeString("<span  class='title' >Full-Stack Developer</span>")
+                .typeString("<span  class='title' >Software Engineer</span>")
                 .start()
               }}/>
             </div>
